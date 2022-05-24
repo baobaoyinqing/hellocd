@@ -14,7 +14,6 @@ public class HellocdApplication {
 
 		@RequestMapping("/")
 			String home() {
-						return "Hello World!";
 						retrun "Hello Continuous Delivery!";
 							}
 
